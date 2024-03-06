@@ -1,9 +1,8 @@
 body{
     background-image: url(images/sfphoto.jpg);
     background-position: center top;
-    background-size: 125%;
+    background-size: 120%;
     background-repeat: no-repeat;
-    background-position: absolute;
     background-attachment: fixed;
     }
     ul{
@@ -42,37 +41,45 @@ body{
         text-align: center;
         padding: 10px 40px;
         text-decoration: none;
-        margin-top: 15px;
+        margin-top: 30px;
     
       }
       .logo {
         float: left;
-        padding: 5px; 
-        margin-left: -13%;
-        margin-top: 0px;
+        padding: 0%; 
+        margin-left: -10%;
+        margin-right: 0%;
+        margin-top: -6px;
       }  
       .logo img {
-        max-width: 25%;
+        max-width: 40%;
         height: auto;
+        left: 10%;
       }
       .purpose-statement {
-        max-width: 600px;
+        max-width: 550px;
     
-        float: center;
+        float: left;
         color: black;
     font-family: Helvetica, sans-serif ;
-    font-size: 15pt;
+    font-size: 20pt;
 font-weight: bold;
 position: absolute;
-bottom: 60%;
-left: 35%;
-width: 100%;
+bottom: 50%;
+top: 20%;
+left: 50%;
+width: 50%;
 text-align: center;
+      }
+      .gif{
+        max-width: 100%;
       }
       footer{
         position: fixed;
-        top: 500px;
-        margin-top: 50px;
         width: 100%;
-        bottom: 300px;
+        bottom: 0%;
+        background-color: aliceblue;
+        padding: 10px;
+        color: aliceblue;
       }
+      
